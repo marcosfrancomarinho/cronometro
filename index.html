@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <script src="./asset/js/scrip.js" defer type="module"></script>
+    <link rel="shortcut icon" href="./asset/image/clock.jpg" type="image/x-icon">
+    <title>Cronometro</title>
+</head>
+
+<body>
+    <header><h1>cronômetro</h1></header>
+    <div class="container">
+        <label for="minutes">minutos:</label>
+        <select name="minutes" id="minutes"></select>
+        <label for="seconds">segundos:</label>
+        <select name="seconds" id="seconds"></select>
+        <button class="start" title="iniciar o cronômetro">INICIAR</button>
+        <div class="display">
+            <h3>00:00</h3>
+            <audio loop>
+                <source src="./asset/audio/alarme.mp3">
+            </audio>
+        </div>
+    </div>
+</body>
+
+</html>
