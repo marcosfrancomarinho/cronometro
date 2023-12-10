@@ -1,3 +1,2 @@
 # cronometro
-Java Script Puro, Node JS, HTML, css.
-Executar usando NODE JS.
+JAVA SCRIP, NODE JS, HTML, CSS = EXECUTAR A APLICAÇAO USANDO NODE JS.
